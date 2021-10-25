@@ -167,12 +167,45 @@ hr{
 .author{
     align-self: flex-end;
     font-weight: 700;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-right: 90px;
     font-size: 20px;
 }
 
 /**/
 
+.modal{
+    display: flex;
+    justify-content: center;
+}
+
+.modal_box{
+    display: flex;
+    margin: 80px;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(167,167,167,0.030);
+    border-radius: 10px;
+    min-width: 700px;
+}
+
+.box_title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.modal_button{
+    background-color: rgba(167,167,167,0.030);
+    color: rgb(255, 255, 255);
+    padding: 8px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.modal_button:hover{
+    color: rgb(28,103,214);
+}
 
 /**/
