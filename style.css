@@ -187,7 +187,8 @@ hr{
     align-items: center;
     background-color: rgba(167,167,167,0.030);
     border-radius: 10px;
-    min-width: 700px;
+    width: 700px;
+    flex-wrap: wrap;
 }
 
 .box_title{
@@ -209,3 +210,17 @@ hr{
 }
 
 /**/
+
+.footer{
+    background-color: rgb(24,46,80);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer_sub{
+    font-size: 10px;
+    padding-top: 8px;
+}
