@@ -53,3 +53,60 @@ a{
 .links li a:hover{
     color: rgb(255, 255, 255);
 }
+
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-direction: row;
+}
+
+.main_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10px;
+    max-width: 500px;
+}
+
+.main_title{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.main_img img{
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.text {
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.main_button{
+    background-color: rgb(42,18,53);
+    color: rgb(201, 201, 201);
+    padding: 5px 20px;
+    font-weight: 600;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.main_button:hover{
+    color: rgb(24,46,80);
+}
+
+hr{
+    max-width: 1250px;
+}
