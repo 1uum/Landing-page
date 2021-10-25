@@ -54,7 +54,7 @@ a{
     color: rgb(255, 255, 255);
 }
 
-
+/**/
 
 .main{
     display: flex;
@@ -111,6 +111,7 @@ hr{
     max-width: 1250px;
 }
 
+/**/
 
 .information {
     text-align: center;
@@ -146,3 +147,32 @@ hr{
 .subtext{
     padding-top: 8px;
 }
+
+/**/
+
+.container_quote{
+    display: flex;
+    background-color: rgba(255,255,255,0.140);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.quote{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.author{
+    align-self: flex-end;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-right: 90px;
+    font-size: 20px;
+}
+
+/**/
+
+
+/**/
