@@ -224,3 +224,9 @@ hr{
     font-size: 10px;
     padding-top: 8px;
 }
+
+/**/
+
+button:hover{
+    cursor: pointer;
+}
